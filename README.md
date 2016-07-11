@@ -14,9 +14,9 @@
 
 ## TODO
 
-[ ] Run as non-root
-[ ] Pass audio (pulseaudio)
-[ ] Enable persistence via volumes
+* [ ] Run as non-root
+* [ ] Pass audio (pulseaudio)
+* [ ] Enable persistence via volumes
 
 ## Inspiration
 
