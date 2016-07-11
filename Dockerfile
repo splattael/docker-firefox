@@ -1,7 +1,8 @@
 FROM debian:jessie
 
-ENV FIREFOX_VERSION 47.0.1
 ENV FIREFOX_DOWNLOAD https://download.mozilla.org/?product=firefox-$FIREFOX_VERSION-SSL&os=linux64
+ARG FIREFOX_VERSION=47.0.1
+ARG FIREFOX_LANG=en-US
 
 RUN wget -O - -q "$FIREFOX_DOWNLOAD" > foo.tar
 RUN tar xvjf foo.tar
